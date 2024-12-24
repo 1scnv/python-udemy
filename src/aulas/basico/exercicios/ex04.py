@@ -13,6 +13,9 @@ Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letra
 menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
+
+#Exercicio 1
+
 # numero = input('digite um número inteiro:')
 
 # if numero.isdigit():
@@ -22,17 +25,32 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 #     else:
 #         print('Número ímpar')
 
+#Exercico 2
 
-horario = input('Digite um horário (0-23)')
 
-if horario.isdigit():
-    horario = int(horario)
-    if horario < 0 or horario > 23:
-        print('Horário inválido')
-    else:
-        if horario <= 11:
-            print(f'Bom dia. Agora são {horario} horas da Manhã')
-        elif horario <= 17:
-            print(f'Boa Tarde. Agora são {horario} horas da Tarde')
-        else:
-            print(f'Boa Noite. Agora são {horario} horas da Noite')
+# horario = input('Digite um horário (0-23)')
+
+# if horario.isdigit():
+#     horario = int(horario)
+#     if horario < 0 or horario > 23:
+#         print('Horário inválido')
+#     else:
+#         if horario <= 11:
+#             print(f'Bom dia. Agora são {horario} horas da Manhã')
+#         elif horario <= 17:
+#             print(f'Boa Tarde. Agora são {horario} horas da Tarde')
+#         else:
+#             print(f'Boa Noite. Agora são {horario} horas da Noite')
+
+# Exercicio 3
+
+# nome = input ('Digite o seu primeiro nome: ')
+
+# tamanho =len(nome)
+
+# if tamanho <= 4:
+#     print('O seu nome é curto')
+# elif tamanho <= 6:
+#     print('Seu nome é normal')
+# else:
+#     print('Seu nome é grande')   
